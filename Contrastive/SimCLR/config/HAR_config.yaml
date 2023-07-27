@@ -1,0 +1,40 @@
+# train options
+seed: 42
+batch_size: 64
+start_epoch: 0
+epochs: 200
+
+
+# dataset related
+dataset: "HAR"
+n_class: 6
+n_channel: 3
+n_length: 206
+
+
+# model options
+projection_dim: 64
+
+
+# loss options
+optimizer: "AdamW"
+lr: 1.5e-4
+weight_decay: 0.05
+temperature: 0.5
+warmup_epoch: 5
+
+
+# reload options
+model_path: "save"
+
+
+# logistic regression options
+logistic_batch_size: 64 # 64, 54
+logistic_epochs: 31  # 31, 101
+
+# finetune options
+pretrain: False
+#pretrain: True
+labelled_ratio: 0.1
+
+finetune_seed: 42
