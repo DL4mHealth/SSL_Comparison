@@ -1,0 +1,9 @@
+einops==0.6.1
+numpy==1.23.5
+pandas==1.4.4
+PyYAML==6.0
+PyYAML==6.0
+scikit_learn==1.1.1
+timm==0.6.12
+torch==2.0.0.dev20230116
+tqdm==4.64.1
