@@ -26,12 +26,11 @@ To install dependencies, run the following command:
 ## Running the code
 For each dataset, there is a config file (in the folder: `config`) which includes a number of parameters that can be further tuned.  
 
-The main files' names are formatted as *SSL type* _ *model* _ *SSL stage*.  
 Take SimCLR as an example, run:  
- `contrastive_SimCLR_pretrain.py`  for pretraining;  
-  `contrastive_SimCLR_finetune_test.py` for finetuning and testing.
+ `SimCLR_pretrain.py`  for pretraining;  
+ `SimCLR_finetune_test.py` for finetuning and testing.
 
-For without pretraining mode, open the config file and find the `finetune options` section, comment out the line: ```pretrain: True```, restore the line: ```pretrain: False```, then run `xx_xx_finetune_test.py`.
+For without pretraining mode, open the config file and find the `finetune options` section, comment out the line: ```pretrain: True```, restore the line: ```pretrain: False```, then run `xx_finetune_test.py`.
 
 
 ## Datasets
