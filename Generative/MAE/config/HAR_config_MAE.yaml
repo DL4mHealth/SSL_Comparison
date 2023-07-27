@@ -1,0 +1,34 @@
+# train options
+seed: 42
+batch_size: 64
+max_device_batch_size: 64
+base_learning_rate: 1.5e-4
+weight_decay: 0.05
+mask_ratio: 0.75
+total_epoch: 200
+warmup_epoch: 5  # finetune same
+emb_dim: 64
+
+# reload options
+model_path: "save"
+
+# dataset related
+dataset: "HAR"
+n_class: 6
+n_channel: 3
+n_length: 200  # for patch
+n_feature: 206
+
+
+# classifier options
+finetune_batch_size: 64
+finetune_epochs: 31
+finetune_base_learning_rate: 0.001
+
+# finetune options
+#pretrain: False
+pretrain: True
+labelled_ratio: 0.1
+
+# for results
+finetune_seed: 42
