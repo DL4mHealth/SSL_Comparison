@@ -1,7 +1,8 @@
 # Self-Supervised Learning for Time Series: Contrastive or Generative?
 
-Authors: Ziyu Liu (ziyu.liu2@student.rmit.edu.au), Azadeh Alavi, Minyi Li, Xiang Zhang  
-
+#### Authors: Ziyu Liu (ziyu.liu2@student.rmit.edu.au), Azadeh Alavi, Minyi Li, Xiang Zhang  
+### [Paper Link](https://github.com/AI4TS/AI4TS.github.io/blob/main/CameraReadys%201-22%202/5%5CCameraReady%5CIJCAI23_TSworkshop_Jun29.pdf)
+---
 <br/>
 We hereby release the datasets and corresponding implementation code used in our comparative study of contrastive and generative self-supervised learning methods. This work was published in the AI4TS workshop at IJCAI 2023.
 
